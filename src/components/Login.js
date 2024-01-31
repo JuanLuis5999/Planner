@@ -13,7 +13,7 @@ function Login({ onLoginSuccess }) {
 
     // Simula una petición de inicio de sesión
     setTimeout(() => {
-      if (username === 'user' && password === 'abcd') {
+      if (username === 'user' && password === 'abc') {
         localStorage.setItem('userToken', 'tu-token-de-autenticacion');
         onLoginSuccess(); 
       } else {
