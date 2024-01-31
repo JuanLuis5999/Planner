@@ -13,7 +13,7 @@ function Login({ onLoginSuccess }) {
 
     // Simula una petición de inicio de sesión
     setTimeout(() => {
-      if (username === 'user' && password === 'abc') {
+      if ((username === 'flaviot@gasoluciones.mx' && password === 'FLTR123')||(username === 'alfredoo@gasoluciones.mx' && password === 'ALOR123')) {
         localStorage.setItem('userToken', 'tu-token-de-autenticacion');
         onLoginSuccess(); 
       } else {
